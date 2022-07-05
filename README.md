@@ -1,7 +1,7 @@
 ## Website i-Door
 Website i-Door yang telah kami buat adalah website untuk suatu guesthouse yang bernama i-Door. Website ini digunakan untuk mendata keperluan adiministrasi pada GH tersebut. Website ini berisi opening page, verficationpage, homepage, detailpage, dan detailpengunjungkamar.
 
-Checkoutdemo  [here](https://website-idoor.candrakun.repl.co)
+Checkout demo  [here](https://website-idoor.candrakun.repl.co)
 
 ## Objectives
 - Membantu administrasi GH

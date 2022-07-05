@@ -28,7 +28,7 @@ Website ini dibangun dengan menggunakan:
 - Windows 32/64 bit operating System
 - Linux or MACOS
 - Web browser
-- Text editor (VS Code)
+- Text editor (VS Code etc)
 
 ### Platform
 - Web browser

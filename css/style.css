@@ -1,0 +1,535 @@
+/* ALL STYLE */
+* {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Regular.ttf);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* PEMBUNGKUS */
+.wrapper {
+    width: 1180px;
+    margin: auto;
+    position: relative;
+}
+
+/* BODY */
+body {
+    background-color: #f0f0f0;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAV BAR */
+nav {
+    background-color: white;
+    width: 100%;
+    line-height: 0px;
+    display: flex;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+}
+
+nav img {
+    float: left;
+    width: 100px;
+    margin: 10px 0px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    z-index: 1;
+    position: fixed;
+    width: 92%;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* PAGE OPENING (index) */
+.container-opening {
+    width: 100%;
+    top: 0;
+    margin: auto;
+}
+
+.subcontainer-opening {
+    display: flex;
+    justify-content: center;
+}
+
+.smallcontainer-opening {
+    margin-top: 100px;
+    background-color: white;
+    width: 500px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(128, 128, 128, 40%);
+}
+
+.header-opening {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.subheader-opening {
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-opening {
+    color: black;
+}
+
+.span1-opening {
+    color: #FCB751;
+}
+
+.button-masuk-opening {
+    color: white;
+    background-color: #FCB751;
+    box-shadow: 0px 0px 5px gray;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 50px;
+    margin-top: 50px;
+}
+
+
+.button-masuk-opening:hover {
+    text-decoration: none;
+    background-color: #f8d197;
+}
+/* PAGE VERIFIKASI */
+
+.container-verifikasi {
+    width: 100%;
+    top: 0;
+    margin: auto;
+}
+
+.subcontainer-verifikasi {
+    width: 550px;
+    margin: auto;
+    position: relative;
+}
+
+.header-menu {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-shadow: 0px 1px 3px gray;
+}
+
+form {
+    margin-bottom: 70px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.label-verifikasi {
+    margin-left: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-verifikasi {
+    background-color: rgb(232, 232, 232);
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 5px 4px;
+    width: 100%;
+    border: none;
+}
+
+.button-masuk-verifikasi {
+    margin-left: 390px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: #FCB751;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    padding: 8px 35px;
+    margin-top: 20px;
+}
+
+.button-masuk-verifikasi:hover {
+    text-decoration: none;
+    background-color: #f8d197;
+}
+
+/* PAGE HOME */
+
+.container-home {
+    padding-top: 25px;
+    width: 100%;
+    top: 0;
+    margin: auto;
+}
+
+.subcontainer-home {
+    text-align: center;
+}
+
+.btn-arrow{
+    width: 100%;
+    margin-top: 110px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+
+.arrow-left {
+    margin-right: 400px;
+}
+
+.arrow-right {
+    margin-left: 400px;
+}
+
+.header-menu {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-shadow: 0px 1px 3px gray;
+}
+
+.smallcontainer-home {
+    z-index: 1;
+    padding: 10px 35px;
+    margin: 0 auto;
+    background-color: white;
+    width: 530px;
+    height: 260px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 0px 1px 10px gray;
+    outline: 3px solid #f0f0f0;
+    }
+
+.header-home {
+    margin: 10px;
+}
+
+.header-smallcontainer-home {
+    text-align: center;
+    color: #FCB751;
+    font-size: 13px;
+    line-height: 5px;
+}
+
+.subheader-smallcontainer-home {
+    margin-bottom: 8px;
+}
+    
+.subheader-smallcontainer-home a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.isi-smallcontainer-home {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.desk {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.subdesk {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.desk1 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.subdesk1 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.group {
+    margin-top: 10px;
+}
+
+.group1 {
+    margin: 20px 50px;
+    text-align: center;
+}
+
+/* PAGE DETAIL */
+
+.logo-back {
+    width: 100px;
+}
+
+.btn-kembali {
+    color: black;
+    float: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 1px;
+    margin-right: 50px;
+}
+
+.container-detail {
+    padding-top: 25px;
+    width: 100%;
+    top: 0;
+    margin: auto;
+}
+
+.subcontainer-detail {
+    text-align: center;
+}
+
+.header-menu {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-shadow: 0px 1px 3px gray;
+}
+
+.smallcontainer-detail {
+    padding: 0px 35px;
+    margin: 0 auto;
+    background-color: white;
+    width: 530px;
+    height: 280px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 0px 1px 10px gray;
+    outline: 3px solid #f0f0f0;
+}
+
+.header-detail {
+    margin-bottom: 10px;
+}
+    
+.header-smallcontainer-detail {
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.isi-smallcontainer-detail {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.desk-detail {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subdesk-detail {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+
+.grouppp {
+    margin-top: 10px;
+}
+
+.desk1-detail {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.group-detail {
+    margin: 10px 60px;
+    text-align: center;
+}
+
+.group1-detail {
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* PENGUNJUNG KAMAR */
+
+.logo-back {
+    width: 100px;
+}
+
+.btn-kembali {
+    color: black;
+    float: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 1px;
+    margin-right: 50px;
+}
+
+.container-pengunjungkamar {
+    padding-top: 25px;
+    width: 100%;
+    top: 0;
+    margin: auto;
+}
+
+.subcontainer-pengunjungkamar  {
+    text-align: center;
+}
+
+.header-menu-pengunjung {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 0px 1px 3px gray;
+}
+
+.namacabang-pengunjung {
+    color: #FCB751;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-shadow: 0px 1px 3px gray;
+}
+
+.wrapper-smallcontainer {
+    margin-bottom: 80px;
+}
+
+.smallcontainer-pengunjungkamar  {
+    padding: 0px 35px;
+    margin: 0 auto;
+    background-color: white;
+    width: 530px;
+    height: 280px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 0px 1px 10px gray;
+    outline: 3px solid #f0f0f0;
+    }
+
+.header-pengunjungkamar {
+    margin-bottom: 10px;
+}
+
+.header-smallcontainer-pengunjungkamar{
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.isi-smallcontainer-pengunjungkamar  {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.desk-pengunjungkamar  {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.subdesk-pengunjungkamar  {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    line-height: 28px;
+}
+
+.grouppp-pengunjungkamar {
+    margin-top: 15px;
+}
+
+.group-pengunjungkamar {
+    margin: 10px 50px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: white;
+    width: 100%;
+    line-height: 10px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+pre {
+    text-align: center;
+    font-size: 15px;
+    color: #7B7B7B;
+    padding-left: 50px;
+    text-decoration: none;
+    margin: 15px;
+}

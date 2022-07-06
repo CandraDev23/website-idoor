@@ -7,3 +7,12 @@ function checkform(){
     else
     alert("berhasil verifikasi")
 }
+function showhidepassword() {
+    var katasandi= document.getElementById("verifikasi-katasandi")
+
+    if (katasandi.type === "password") {
+        katasandi.type = "text";
+    } else {
+        katasandi.type ="password";
+    }
+}
